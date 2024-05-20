@@ -1,4 +1,39 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hIpamZ_2)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14842295)
-# CMP1242_S24_JavaStarterRepo
-Java Starter Repo with common IDE folders get ignored.
+Names:                                    B.N:
+_Alaa Abd El_Nasser Mohamed Fouad   14
+_Ekram Ahmed                        11
+_Alaa Khaled Taha                   13
+_Alaa Ahmed Mobarek                 12
+_Amira El_Sayed El_Demerdash        17
+
+
+-Main Components:
+
+The project consists of various controllers (AdminController, ApprovalSystemAdminController, DepositUserController, HomeAdminController, HomeUserController, ItemApprovalSystemAdminController, ItemCompanyController, itemController) each handling different functionalities of the stock trading system.
+These controllers likely correspond to different views or screens within the application, such as administration panels, user dashboards, approval systems, etc.
+-FXML Files:
+
+Each controller is associated with an FXML file, which defines the layout and structure of the corresponding view.
+For example, Admin.fxml, ApprovalSystemAdmin.fxml, DepositUser.fxml, HomeAdmin.fxml, HomeUser.fxml, ItemApprovalSystem.fxml, ItemCompany.fxml, item.fxml are the --FXML files for the respective controllers.
+-Functionality:
+
+The AdminController seems to handle administrative tasks like managing users, stocks, stock orders, and approval systems.
+The HomeAdminController deals with the home screen for administrators, allowing them to start or end their session.
+The HomeUserController provides functionality for regular users, such as displaying transaction history, time updates, etc.
+The DepositUserController facilitates depositing money into user accounts.
+The ApprovalSystemAdminController manages the approval system for transactions, allowing administrators to approve or reject pending transactions.
+The ItemCompanyController handles displaying stocks for a particular company.
+The itemController seems to be a generic controller used for individual items within the application.
+-Database Operations:
+
+The project likely interacts with a database to store and retrieve data related to users, transactions, stocks, etc.
+Database operations are encapsulated in classes like userDB, stockDB, and ordersDB.
+-Dynamic Content Loading:
+
+The project utilizes dynamic content loading techniques, where items such as transactions, stock items, etc., are loaded dynamically based on user interactions or database queries.
+This is evident in methods like addNewItem, addStocks, etc., which dynamically add items to the UI.
+-User Interface and Interaction:
+
+The UI is built using JavaFX components like buttons, labels, text fields, etc., arranged in FXML files.
+User interaction is handled through event handlers defined in the controllers, responding to button clicks, text input, etc.
+
+Overall, the project aims to provide a comprehensive stock trading system with administrative functionalities, user dashboards, transaction management, and approval systems, all integrated into a JavaFX application.
