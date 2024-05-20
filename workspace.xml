@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ddc51b4-d73c-4278-92d2-018d826ca21b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gFHOfRZFJHw2ZD7qdLdz95cpsN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/20114/Downloads/slf4j.jdk14-1.6.1.jar/slf4j.jdk14-1.6.1.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\20114\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4e9daa6e-699c-494b-b6d0-8b1458230256" reportId="NewOOP/qodana/2024-05-13" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20114\Downloads\finaal (2)\ffffffffff\src\gui" />
+      <recent name="C:\Users\20114\Downloads\finaal (2)\ffffffffff\src\application" />
+      <recent name="C:\Users\as146\IdeaProjects\Amm\src\Images" />
+      <recent name="C:\Users\as146\IdeaProjects\Amm\src" />
+      <recent name="C:\Users\20114\Downloads\NewOOP\src\application" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ddc51b4-d73c-4278-92d2-018d826ca21b" name="Changes" comment="" />
+      <created>1715286380806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715286380806</updated>
+      <workItem from="1715286382312" duration="443000" />
+      <workItem from="1715286840893" duration="1104000" />
+      <workItem from="1715381362818" duration="1647000" />
+      <workItem from="1715383024591" duration="6210000" />
+      <workItem from="1715536241195" duration="1211000" />
+      <workItem from="1715537473962" duration="15740000" />
+      <workItem from="1715555095733" duration="8685000" />
+      <workItem from="1715594995915" duration="31404000" />
+      <workItem from="1715684904765" duration="181000" />
+      <workItem from="1715779123301" duration="6099000" />
+      <workItem from="1715786595626" duration="419000" />
+      <workItem from="1715843246437" duration="27005000" />
+      <workItem from="1715889766329" duration="12985000" />
+      <workItem from="1715933364310" duration="292000" />
+      <workItem from="1715933871757" duration="95000" />
+      <workItem from="1715934105988" duration="18813000" />
+      <workItem from="1715957217750" duration="18083000" />
+      <workItem from="1716016399247" duration="22199000" />
+      <workItem from="1716043293462" duration="7088000" />
+      <workItem from="1716054499426" duration="15227000" />
+      <workItem from="1716092886371" duration="1382000" />
+      <workItem from="1716112112993" duration="2960000" />
+      <workItem from="1716131332395" duration="5895000" />
+      <workItem from="1716146894597" duration="11784000" />
+      <workItem from="1716175302558" duration="5501000" />
+      <workItem from="1716181320574" duration="3547000" />
+      <workItem from="1716185460602" duration="1230000" />
+      <workItem from="1716197374928" duration="19811000" />
+      <workItem from="1716220282554" duration="1981000" />
+      <workItem from="1716223077486" duration="5934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
