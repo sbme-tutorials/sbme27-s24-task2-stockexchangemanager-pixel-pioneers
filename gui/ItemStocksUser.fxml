@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="461.0" styleClass="anchor-pane" stylesheets="@../styles/UsersAdmin.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ItemStocksUserController">
+    <children>
+        <ImageView fitHeight="42.0" fitWidth="39.0">
+            <image>
+                <Image url="@../Images/icons8-stocks-64 (1).png" />
+            </image>
+            <HBox.margin>
+                <Insets left="3.0" top="5.0" />
+            </HBox.margin>
+        </ImageView>
+        <TextField fx:id="Stock_Name" editable="false" prefHeight="48.0" prefWidth="193.0" styleClass="Label" />
+        <TextField fx:id="Available_Stocks" prefHeight="45.0" prefWidth="97.0" styleClass="Labelle" />
+        <Button fx:id="Sell" mnemonicParsing="false" prefHeight="46.0" prefWidth="108.0" styleClass="Labelle" text="Sell">
+            <HBox.margin>
+                <Insets left="60.0" right="3.0" />
+            </HBox.margin>
+        </Button>
+
+    </children>
+</HBox>

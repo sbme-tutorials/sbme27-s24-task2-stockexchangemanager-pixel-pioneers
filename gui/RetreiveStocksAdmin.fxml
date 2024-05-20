@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" styleClass="anchor-pane" stylesheets="@../styles/NewAccount.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.retrieveStocksController">
+   <children>
+      <AnchorPane layoutX="50.0" layoutY="50.0" prefHeight="200.0" prefWidth="200.0" styleClass="main-container" AnchorPane.bottomAnchor="50.799999999999955" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.799999999999955" AnchorPane.topAnchor="50.0">
+         <children>
+            <ImageView fitHeight="34.0" fitWidth="29.0" layoutX="178.0" layoutY="96.0">
+               <image>
+                  <Image url="@../Images/icons8-company-50.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="Dividends_Amount" editable="false" layoutX="214.0" layoutY="340.0" prefHeight="34.0" prefWidth="266.0" promptText="Dividends Amount" />
+            <TextField fx:id="Company_Name" editable="false" layoutX="214.0" layoutY="96.0" prefHeight="34.0" prefWidth="266.0" promptText="Company Name" />
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="177.0" layoutY="410.0">
+               <image>
+                  <Image url="@../Images/icons8-frequency-30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="177.0" layoutY="344.0">
+               <image>
+                  <Image url="@../Images/icons8-dividends-50.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="initial_Price" editable="false" layoutX="214.0" layoutY="162.0" prefHeight="34.0" prefWidth="266.0" promptText="initial Price" />
+            <ImageView fitHeight="63.0" fitWidth="82.0" layoutX="161.0">
+               <image>
+                  <Image url="@../Images/icons8-combo-chart-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="173.0" layoutY="278.0">
+               <image>
+                  <Image url="@../Images/icons8-stock-share-32.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="Available_Stocks" editable="false" layoutX="214.0" layoutY="278.0" prefHeight="34.0" prefWidth="266.0" promptText="Available Stocks" />
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="174.0" layoutY="166.0">
+               <image>
+                  <Image url="@../Images/icons8-price-50.png" />
+               </image>
+            </ImageView>
+            <Text fill="#d1d1d1" layoutX="211.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Stock Data" textAlignment="CENTER" wrappingWidth="255.20000000000005">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Trading_Price" editable="false" layoutX="214.0" layoutY="221.0" prefHeight="34.0" prefWidth="266.0" promptText="Trading Price" />
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="174.0" layoutY="225.0">
+               <image>
+                  <Image url="@../Images/icons8-price-50.png" />
+               </image>
+            </ImageView>
+            <TextField editable="false" layoutX="214.0" layoutY="464.0" prefHeight="34.0" prefWidth="266.0" promptText=" profit percentage" />
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="177.0" layoutY="464.0">
+               <image>
+                  <Image url="@../Images/icons8-profit-50.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="Divided_Frequency" editable="false" layoutX="214.0" layoutY="405.0" prefHeight="34.0" prefWidth="266.0" promptText="Divided_Frequency" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="error_lbl" layoutX="113.0" layoutY="660.0" prefHeight="26.0" prefWidth="552.0" />
+   </children>
+</AnchorPane>

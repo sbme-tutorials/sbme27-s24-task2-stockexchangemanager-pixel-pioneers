@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="620.0" styleClass="wallet_container" stylesheets="@../styles/WalletUser.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WalletUserController">
+   <children>
+      <AnchorPane layoutX="170.0" layoutY="27.0" prefHeight="139.0" prefWidth="293.0" styleClass="account_balance">
+         <children>
+            <Text layoutX="90.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Balance$$" textAlignment="CENTER" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="28.0" />
+            <TextField fx:id="account" editable="false" layoutX="34.0" layoutY="57.0" prefHeight="41.0" prefWidth="225.0" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="129.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="financial_box_titel" text="Financial Actions" wrappingWidth="184.15509033203125" />
+      <AnchorPane layoutX="316.0" layoutY="190.0" prefHeight="160.0" prefWidth="293.0">
+         <children>
+            <Text layoutX="96.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Withdrawal" />
+            <TextField fx:id="decrease" layoutX="103.0" layoutY="61.0" prefHeight="26.0" prefWidth="152.0" />
+            <Button layoutX="104.0" layoutY="122.0" mnemonicParsing="false" onAction="#withdraw" prefWidth="87.0" text="withdraw" textFill="WHITE" />
+            <Text layoutX="14.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:" />
+            <Label fx:id="impossible" layoutX="1.0" layoutY="98.0" prefHeight="18.0" prefWidth="293.0" textFill="WHITE" />
+         </children>
+         <styleClass>
+            <String fx:value="account_gradient" />
+            <String fx:value="transaction" />
+         </styleClass>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="190.0" prefHeight="160.0" prefWidth="293.0">
+         <children>
+            <Text layoutX="97.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deposition" />
+            <TextField fx:id="increase" layoutX="103.0" layoutY="61.0" prefHeight="26.0" prefWidth="152.0" />
+            <Button layoutX="117.0" layoutY="122.0" mnemonicParsing="false" onAction="#deposit" text="deposit" textFill="WHITE" />
+            <Text layoutX="14.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:" />
+            <Label fx:id="impossible1" layoutX="1.0" layoutY="98.0" prefHeight="18.0" prefWidth="293.0" textFill="WHITE" />
+         </children>
+         <styleClass>
+            <String fx:value="account_gradient" />
+            <String fx:value="transaction" />
+         </styleClass>
+      </AnchorPane>
+      <Text layoutX="478.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="financial_box_titel" text="Symmary" />
+      <VBox layoutX="444.0" layoutY="429.0" prefHeight="180.0" prefWidth="170.0" styleClass="summary_view" stylesheets="@../styles/UsersAdmin.css">
+         <children>
+            <VBox prefHeight="180.0" prefWidth="149.0" styleClass="summary_container" stylesheets="@../styles/WalletUser.css">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Deposited money" />
+                  <Label fx:id="income" prefHeight="20.0" prefWidth="116.0" styleClass="income_amount" text="+$$$$$$" />
+                  <Line endX="100.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Withdrawn money" />
+                  <Label fx:id="expense" styleClass="expense_amount" text="-$$$$$$" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="14.0" layoutY="429.0" prefHeight="180.0" prefWidth="414.0" styleClass="scroll_pane">
+         <content>
+            <VBox fx:id="financial" prefHeight="164.0" prefWidth="398.0" spacing="5.0" styleClass="vbox">
+               <padding>
+                  <Insets left="10.0" right="5.0" top="5.0" />
+               </padding></VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
