@@ -6,34 +6,33 @@ _Alaa Ahmed Mobarek                 12
 _Amira El_Sayed El_Demerdash        17
 
 
--Main Components:
+**Main Components:**
 
-The project consists of various controllers (AdminController, ApprovalSystemAdminController, DepositUserController, HomeAdminController, HomeUserController, ItemApprovalSystemAdminController, ItemCompanyController, itemController) each handling different functionalities of the stock trading system.
-These controllers likely correspond to different views or screens within the application, such as administration panels, user dashboards, approval systems, etc.
--FXML Files:
+The project consists of various controllers (`AdminController`, `ApprovalSystemAdminController`, `DepositUserController`, `HomeAdminController`, `HomeUserController`, `ItemApprovalSystemAdminController`, `ItemCompanyController`, `itemController`) each handling different functionalities of the stock trading system. These controllers likely correspond to different views or screens within the application, such as administration panels, user dashboards, approval systems, etc.
 
-Each controller is associated with an FXML file, which defines the layout and structure of the corresponding view.
-For example, Admin.fxml, ApprovalSystemAdmin.fxml, DepositUser.fxml, HomeAdmin.fxml, HomeUser.fxml, ItemApprovalSystem.fxml, ItemCompany.fxml, item.fxml are the --FXML files for the respective controllers.
--Functionality:
+**FXML Files:**
 
-The AdminController seems to handle administrative tasks like managing users, stocks, stock orders, and approval systems.
-The HomeAdminController deals with the home screen for administrators, allowing them to start or end their session.
-The HomeUserController provides functionality for regular users, such as displaying transaction history, time updates, etc.
-The DepositUserController facilitates depositing money into user accounts.
-The ApprovalSystemAdminController manages the approval system for transactions, allowing administrators to approve or reject pending transactions.
-The ItemCompanyController handles displaying stocks for a particular company.
-The itemController seems to be a generic controller used for individual items within the application.
--Database Operations:
+Each controller is associated with an FXML file, which defines the layout and structure of the corresponding view. For example, `Admin.fxml`, `ApprovalSystemAdmin.fxml`, `DepositUser.fxml`, `HomeAdmin.fxml`, `HomeUser.fxml`, `ItemApprovalSystem.fxml`, `ItemCompany.fxml`, `item.fxml` are the FXML files for the respective controllers.
 
-The project likely interacts with a database to store and retrieve data related to users, transactions, stocks, etc.
-Database operations are encapsulated in classes like userDB, stockDB, and ordersDB.
--Dynamic Content Loading:
+**Functionality:**
 
-The project utilizes dynamic content loading techniques, where items such as transactions, stock items, etc., are loaded dynamically based on user interactions or database queries.
-This is evident in methods like addNewItem, addStocks, etc., which dynamically add items to the UI.
--User Interface and Interaction:
+- `AdminController`: Handles administrative tasks like managing users, stocks, stock orders, and approval systems.
+- `HomeAdminController`: Deals with the home screen for administrators, allowing them to start or end their session.
+- `HomeUserController`: Provides functionality for regular users, such as displaying transaction history, time updates, etc.
+- `DepositUserController`: Facilitates depositing money into user accounts.
+- `ApprovalSystemAdminController`: Manages the approval system for transactions, allowing administrators to approve or reject pending transactions.
+- `ItemCompanyController`: Handles displaying stocks for a particular company.
+- `itemController`: A generic controller used for individual items within the application.
 
-The UI is built using JavaFX components like buttons, labels, text fields, etc., arranged in FXML files.
-User interaction is handled through event handlers defined in the controllers, responding to button clicks, text input, etc.
+**Database Operations:**
 
-Overall, the project aims to provide a comprehensive stock trading system with administrative functionalities, user dashboards, transaction management, and approval systems, all integrated into a JavaFX application.
+The project likely interacts with a database to store and retrieve data related to users, transactions, stocks, etc. Database operations are encapsulated in classes like `UserDB`, `StockDB`, and `OrdersDB`.
+
+**Dynamic Content Loading:**
+
+The project utilizes dynamic content loading techniques, where items such as transactions, stock items, etc., are loaded dynamically based on user interactions or database queries. This is evident in methods like `addNewItem`, `addStocks`, etc., which dynamically add items to the UI.
+
+**User Interface and Interaction:**
+
+The UI is built using JavaFX components like buttons, labels, text fields, etc., arranged in FXML files. User interaction is handled through event handlers defined in the controllers, responding to button clicks, text input, etc.
+
