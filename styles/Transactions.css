@@ -1,0 +1,20 @@
+.background{
+    -fx-background-color:#FFFFFF;
+    -fx-border-color: #003366;
+    -fx-border-width:2;
+}
+.deposit{
+    -fx-text-fill:#00AA00;
+    -fx-font-size: 1.9em;
+    -fx-font-family:"Calibri Light";
+}
+.date{
+    -fx-text-fill:#000000;
+    -fx-font-size: 1.9em;
+    -fx-font-family:"Calibri Light";
+}
+.withdraw{
+    -fx-text-fill:#AA0000;
+    -fx-font-size: 1.9em;
+    -fx-font-family:"Calibri Light";
+}

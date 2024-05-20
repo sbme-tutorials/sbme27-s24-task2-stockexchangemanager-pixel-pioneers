@@ -1,0 +1,76 @@
+/* Styles for TableView */
+.table-view {
+    -fx-background-color: #f0f0f0; /* Background color */
+}
+
+/* Styles for TableColumns */
+.table-column {
+    -fx-alignment: CENTER; /* Align column content to center */
+}
+
+/* Styles for Buttons */
+.Label {
+    -fx-background-color:#003366;
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 15px; /* Font size */
+}
+.Labelle {
+    -fx-background-color:#003366;
+    -fx-text-fill: white; /* White text color */
+    -fx-font-family: "AGA Arabesque" ;
+    -fx-font-size: 20px;
+    -fx-font-weight:bold ;
+}
+
+/* Hover effect for Buttons */
+.button:hover {
+    -fx-background-color: #cceeff; /* Darker green background color on hover */
+}
+
+
+/* Styles for TableView selection */
+.table-row-cell:selected {
+    -fx-background-color: #cceeff; /* Light blue background color for selected row */
+}
+
+/* Styles for AnchorPane */
+.anchor-pane  {
+    -fx-background-color: #003366;
+    -fx-border-color:#ffffff; /* White background color */
+}
+
+
+.anchor-pane2 {
+    -fx-background-color: #ffffff; /* Lighter Shade of Blue */
+    -fx-border-color: #003366; /* Dark Blue border color */
+    -fx-border-width: 10px;
+}
+
+.anchor-pane3 {
+    -fx-background-color: #85929E; /* Lighter Shade of Blue */
+    -fx-border-color: #003366; /* Dark Blue border color */
+}
+.Label2 {
+    -fx-background-color:#85929E;
+    -fx-text-fill: white; /* White text color */
+    -fx-font-family: "AGA Arabesque" ;
+    -fx-font-size: 23px; /* Font size */
+}
+.session-toggle-button {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.session-toggle-button:selected {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+.title_container3 {
+    /* Set font size */
+    -fx-fill: #91acda; /* Set text color */
+    -fx-font-family:"Californian FB" ;
+    -fx-font-size: 32px;
+}

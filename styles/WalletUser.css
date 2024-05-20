@@ -1,0 +1,125 @@
+.wallet_container{
+	-fx-background-color: #EEEEEE;
+}
+.transaction{
+	-fx-background-radius: 12px;
+	-fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.transaction Label{
+	-fx-text-fill: #EEEEEE;
+	-fx-font-size: 1.2em;
+	-fx-alignment: center;
+	-fx-font-family:"Calibri Light";
+}
+
+.transaction Text{
+	-fx-fill: #FFFFFF;
+	-fx-font-size: 1.7em;
+	-fx-font-family:"Calibri Light";
+}
+.transaction TextField{
+
+	-fx-background-color:#FFFFFF;
+	-fx-effect:dropshadow(three-pass-box,#AAAAAA,3,0,0,3);
+	-fx-pref-height:20;
+}
+
+.transaction Button{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color:linear-gradient(to right, #003366, #10144f);
+	-fx-effect:dropshadow(three-pass-box,#AAAAAA,3,0,0,3);
+}
+.scroll_pane {
+	-fx-background-color: #FFFFFF;
+	-fx-border-width: 0; /* No border */
+}
+.vbox {
+	-fx-spacing: 6; /* Increased spacing between children */
+}
+.transaction Button:hover{
+	-fx-background-color: #9dc1e4;
+	-fx-cursor:hand;
+}
+
+
+.account_gradient{
+	-fx-background-color:linear-gradient(to right, #003366, #10144f);
+}
+.account_balance{
+	-fx-background-color:#FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-font-size: 1.7em;
+	-fx-font-family:"Calibri Light";
+	-fx-font-weight:bold ;
+	-fx-background-radius: 12px;
+	-fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+
+.account_balance TextField {
+	-fx-background-color:#FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-alignment: center;
+	-fx-font-size: 2em;
+	-fx-font-family:"Calibri Light";
+	-fx-font-weight:bold ;
+	/* 	-fx-background-radius: 12px;
+        -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);*/
+}
+
+
+/*.account_number{
+	-fx-text-fill: #000000;
+	-fx-font-size: 1em;
+	-fx-font-family:Calibri;
+	-fx-text-alignment:bold ;
+} */
+
+.financial_box_titel {
+	-fx-font-size: 1.9em;
+	-fx-font-family:"Calibri Light";
+	-fx-fill: #000000;
+}
+
+.financial_box{
+	-fx-spacing: 15;
+}
+.financial_box.list-view{
+	-fx-background-color:#EEEEEE;
+}
+.financial_box.list-cell{
+	-fx-background-color:#FFFFFF;
+	-fx-padding: 20 0 20 0;
+}
+.summary_view{
+	-fx-background-color:#FFFFFF;
+	-fx-padding:5 10 5 10;
+	-fx-spacing:5;
+	-fx-alignment:center_left;
+}
+
+.summary_container{
+	-fx-padding:10;
+	-fx-spacing:10;
+	-fx-alignment:center_left;
+	-fx-border-radius:10 ;
+	-fx-border-color:#999999;
+	-fx-border-width:1 ;
+	-fx-border-style:dashed;
+}
+
+.summary_container Line{
+	-fx-stroke:#AAAAAA;
+}
+
+.income_amount{
+
+	-fx-text-fill: #00AA00;
+	-fx-font-size: 1.5em;
+	-fx-font-family:"Calibri Light";
+}
+.expense_amount{
+
+	-fx-text-fill: #AA0000;
+	-fx-font-size: 1.5em;
+	-fx-font-family:"Calibri Light";
+}

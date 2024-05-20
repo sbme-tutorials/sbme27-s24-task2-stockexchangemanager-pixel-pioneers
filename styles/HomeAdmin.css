@@ -1,0 +1,12 @@
+.session-toggle-button {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.session-toggle-button:selected {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}

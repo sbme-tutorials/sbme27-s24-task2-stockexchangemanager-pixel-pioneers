@@ -1,0 +1,63 @@
+/* Apply styles to the outer AnchorPane */
+.anchor-pane {
+    -fx-background-color: #003366; /* Lighter Shade of Blue */
+    -fx-border-color: #85929E; /* Dark Blue border color */
+    -fx-border-width: 10px; /* Thickness of the border */
+}
+
+/* Apply styles to the main container */
+.main-container {
+    -fx-background-color: #003366; /* Dark blue background */
+    -fx-padding: 20px;
+    -fx-background-radius: 10px; /* Rounded corners */
+}
+
+/* Apply styles to text fields */
+.text-field {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-text-fill: #333; /* Dark text color */
+    -fx-prompt-text-fill: #999; /* Light gray prompt text */
+}
+
+/* Apply styles to labels */
+.label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff; /* White text color */
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-background-color:#85929E;
+    -fx-border-color:#000000;
+    -fx-text-fill: white; /* White text color */
+    -fx-padding: 10px 20px;
+    -fx-font-family: "Bodoni MT" ;
+    -fx-font-size: 23px;
+    /* Padding */
+}
+
+/* Apply styles to combo boxes */
+.combo-box {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-text-fill: #333; /* Dark text color */
+}
+
+.error_lbl{
+    -fx-text-fill:#FF0000; /* Red text color */
+    -fx-font-size: 20px; /* Larger font size */
+}
+
+/* Add more custom styles as needed */

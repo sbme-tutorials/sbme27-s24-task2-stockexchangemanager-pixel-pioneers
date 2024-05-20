@@ -1,0 +1,63 @@
+/* Styles for AnchorPane */
+.anchor-pane  {
+    -fx-background-color:#FFFFFF; /* White background color */
+    -fx-border-color:linear-gradient(to right, #003366, #10144f);
+    -fx-background-radius: 6px;
+    -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.anchor-pane Label {
+    -fx-text-fill: linear-gradient(to right, #003366, #10144f);
+    -fx-font-size: 1.3em;
+    -fx-font-family:"Arial";
+}.anchor-pane Button {
+     -fx-background-color: linear-gradient(to right, #003366, #10144f);
+     -fx-background-radius: 4px;
+     -fx-text-fill: #FFFFFF;
+     -fx-font-size: 1.2em;
+     -fx-font-family:"Arial";
+ }
+/*.anchor-pane2 {
+    -fx-background-color: #f0f0f0; /* Lighter Shade of Blue
+    -fx-border-color: #003366; /* Dark Blue border color
+    -fx-border-width: 10px; /* Thickness of the border
+} */
+
+.market LineChart{
+    -fx-background-color:#FFFFFF;
+    -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.market BarChart{
+    -fx-background-color:#FFFFFF;
+    -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.market{
+    -fx-background-color:#eaeaee;
+    -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.market BarChartSeries1{
+    -fx-background-color:#42d01b;
+    -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.market BarChartSeries2{
+    -fx-background-color:#ae1b1b;
+    -fx-effect:dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+.market BarChartText{
+    -fx-fill:#000000;
+    -fx-font-size: 1.3em;
+    -fx-font-family:"Calibri Light";
+}
+.title{
+    -fx-fill:#003366;
+    -fx-font-size: 2.5em;
+    -fx-font-family:"Arial";
+}
+.change{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 8px;
+    -fx-text-fill: linear-gradient(to right, #003366, #10144f);
+    -fx-font-size: 1.2em;
+    -fx-font-family:"Arial";
+}
+
+

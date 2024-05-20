@@ -1,0 +1,38 @@
+
+
+/* Style the inner AnchorPane */
+.anchor-pane-inner {
+    -fx-background-color: #003366; /* Set background color */
+}
+
+/* Style the title text */
+.title_container {
+    /* Set font size */
+    -fx-fill: #91acda; /* Set text color */
+    -fx-font-family:"Californian FB" ;
+    -fx-font-size: 25px;
+}
+
+
+/* Style the buttons */
+.alt_menu_btn {
+    -fx-background-color: transparent; /* Set transparent background */
+    -fx-text-fill: white; /* Set text color */
+    -fx-font-family:"Arabic Typesetting" ;
+    -fx-font-size: 27px;
+}
+.alt_menu_btn:hover {
+    -fx-background-color: #91acda;
+}
+
+/* Style the Line */
+.Line {
+    -fx-stroke: white; /* Set line color */
+}
+
+/* Style the Logout button */
+#LogoutAd {
+    -fx-background-color: transparent; /* Set transparent background */
+    -fx-text-fill: white; /* Set text color */
+    -fx-font-size: 14px; /* Set font size */
+}
